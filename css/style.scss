@@ -1,0 +1,230 @@
+//Scss
+$blue: #08526D;
+$red: #ED1E25;
+//Scss
+//global
+
+@mixin transition-mood {
+    transition: ease 200ms  ;
+
+}
+
+button:active , button:hover , button:visited , button:focus
+{
+  outline: 0;
+
+}
+//global
+//upper bar
+.upper-bar {
+  color: #ddd;
+  background-color: $blue;
+  padding: 10px;
+  font-size: 15px;
+
+}
+
+.fa-phone {
+  margin-right: 5px;
+}
+
+.fa-envelope {
+  margin: 0px 5px 0px 5px;
+}
+
+.upper-bar-button {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: solid $red;
+  padding: 0px 15px 3px 15px;
+  margin-left: 10px;
+  -webkit-transition: 500ms ease all;
+  -o-transition: 500ms ease all;
+  transition: 500ms ease all;
+  text-transform: capitalize;
+
+}
+
+.upper-bar-button:hover {
+  background: $red;
+  -webkit-transition: 500ms ease all;
+  -o-transition: 500ms ease all;
+  transition: 500ms ease all;
+}
+
+//upperbar
+.logo {
+  background-image: url("../images/logo.png");
+  width: 200px;
+  height: 40px;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 25px 0px;
+  background-color: white;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: $blue;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $red;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+{
+  color: $red;
+}
+//end nav bar
+
+
+//start slider
+
+.carousel-inner
+{
+  position: relative;
+
+}
+.carousel-inner h1
+{
+  position: absolute;
+  z-index: 4;
+  color: $blue;
+  top: 212px;
+  left: 160px;
+  width: 468px;
+  font-size: 68px;
+  line-height: 1;
+  letter-spacing: 5px;
+
+}
+.over-layer
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #EEE;
+  opacity: 0.1;
+  z-index: 2;
+
+}
+.slide .carousel-item
+{
+   background-size: cover;
+  background-position: center;
+}
+.carousel-one
+{
+  background-image: url('../images/slider1.jpg');
+
+
+}
+.carousel-tow
+{
+  background-image: url('../images/slider2.jpg');
+
+}
+.carousel-three
+{
+  background-image: url('../images/slider3.jpg');
+}
+.slide .carousel-item
+{
+  background-size: cover;
+}
+//end slider
+
+//start Features
+.Features
+{
+ margin-top: 100px;
+}
+
+.Features-item
+{
+  text-align: center;
+  padding: 0px 20px;
+  text-transform: capitalize;
+  color: #08526D;
+}
+.Features-item i
+{
+  text-align: center;
+  background: #ed1d24;
+  font-size: 19px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  border-radius: 100px;
+  margin: 15px auto;
+
+}
+.Features-item h4
+{
+  margin-bottom: 18px;
+  color: #08526D;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+}
+.Features-item p
+{
+  color: #8B999F;
+}
+
+//end Features
+
+//Start Overtview
+.overview
+{
+  background-color: #F0F5F7;
+  padding: 100px 0px;
+  text-align: center;
+  margin: 60px 0px;
+
+}
+.overview h1
+{
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 50px;
+
+}
+.overview p
+{
+  margin-bottom: 50px;
+  font-size: 19px;
+  color: #555;
+}
+.overview button
+{
+  padding: 14px 40px;
+  border: none;
+  background-color: #ED1E25;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+  @include transition-mood;
+}
+.overview button:hover
+{
+  @include transition-mood;
+  background-color: $blue;
+}
+//end Overview
+
+
