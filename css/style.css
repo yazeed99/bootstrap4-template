@@ -206,8 +206,8 @@ button:active, button:hover, button:visited, button:focus {
 
 .Featured-ul li {
   border: 1px solid #d3dde1;
-  margin: 10px 5px;
-  padding: 10px 10px;
+  margin: 10px 20px;
+  padding: 10px 5px;
   text-transform: capitalize;
   font-size: 15px;
   font-weight: bold;
@@ -226,6 +226,27 @@ button:active, button:hover, button:visited, button:focus {
   background-color: #ED1E25;
   color: white;
   border: solid 1px #ED1E25;
+}
+
+.Featured-Work-Img div {
+  padding: 0px;
+}
+
+.Featured-Work-Img div img {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 760px) {
+  .Featured-Work-Img div img {
+    width: 80%;
+  }
+
+  .Featured-Work-Img div {
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
