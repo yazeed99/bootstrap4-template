@@ -248,5 +248,39 @@ button:active, button:hover, button:visited, button:focus {
     margin-left: 40px;
   }
 }
+.Latest-Post {
+  padding: 50px 0px;
+}
+
+.Latest-Post h1 {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.Latest-Post p {
+  margin-bottom: 50px;
+  font-size: 19px;
+  color: #555;
+  margin: 50px 0px;
+}
+
+.Latest-Post-card {
+  margin: 10px 0px;
+}
+
+.card-body h5 {
+  color: #08526D;
+}
+
+.card-body p {
+  margin: 10px 0px;
+}
+
+.card-body .card-body-link {
+  color: #ED1E25;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */

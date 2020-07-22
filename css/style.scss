@@ -305,3 +305,41 @@ width: 100%;
 //End Featured Work
 
 
+//Start Latest Post
+.Latest-Post
+{
+  @include block-padding;
+}
+.Latest-Post h1
+{
+  @include block-heading
+}
+.Latest-Post p
+{
+  @include block-paragraph;
+  margin: 50px 0px;
+
+}
+.Latest-Post-card
+{
+  margin: 10px 0px;
+}
+.card-body h5
+{
+
+  color: $blue;
+}
+.card-body p {
+  margin: 10px 0px;
+}
+.card-body .card-body-link
+{
+  color: $red;
+  font-weight: bold;
+}
+
+
+
+//End Latest Post
+
+
