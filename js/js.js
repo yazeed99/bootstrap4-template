@@ -1,4 +1,5 @@
 $(function () {
+
     // slider height
     var win = $(window).height();
     var upper = $('.upper-bar').innerHeight();
@@ -36,13 +37,22 @@ $(function () {
         }
         else {
             $(".im").removeClass("animate__bounceIn").addClass("animate__bounceOut");
-            $(".im").css("display","none");
             $($(this).data("class")).removeClass("animate__bounceOut").addClass("animate__bounceIn");
             $($(this).data("class")).css("display","block");
 
         }
     });
     ////shuffle img
+
+    //Testimonials Hover
+    $(".Testimonials-slide").hover(function () {
+        $(".Testimonials-icon").css('opacity', '1');
+    },function () {
+
+        $(".Testimonials-icon").css("opacity",'0')
+    })
+
+    //Testimonials Hover
 
 
 });
