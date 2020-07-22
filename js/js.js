@@ -11,12 +11,14 @@ $(function () {
     $(".Featured-ul li").on("click",function () {
         $(this).addClass("li-active").siblings().removeClass("li-active");
         if ($(this).data("class") == "all") {
-            $(".im").css("display", "block");
+            $(".im").removeClass("animate__bounceOut").addClass("animate__bounceIn");
+            $(".im").css("display","block");
         }
         else {
-            $(".im").css("display", "none");
-            $($(this).data("class")).css("display", "block");
-
+            $(".im").removeClass("animate__bounceIn").addClass("animate__bounceOut");
+            $(".im").css("display","none");
+            $($(this).data("class")).removeClass("animate__bounceOut").addClass("animate__bounceIn")
+            $($(this).data("class")).css("display","block");
 
         }
     });
