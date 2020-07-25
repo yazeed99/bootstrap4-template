@@ -293,6 +293,7 @@ button:active, button:hover, button:visited, button:focus {
   position: relative;
   width: 100%;
   height: 600px;
+  margin-bottom: 0px;
 }
 
 .over-layer-2 {
@@ -349,6 +350,106 @@ button:active, button:hover, button:visited, button:focus {
 .Testimonials .carousel-caption span {
   font-size: 15px;
   color: #ddd;
+}
+
+.Pricing-Table {
+  padding: 50px 0px;
+  background-color: #f7f7f7;
+}
+
+.Pricing-Table h1 {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.Pricing-Table-p {
+  margin-bottom: 50px;
+  font-size: 19px;
+  color: #555;
+}
+
+.Pricing-Table .card {
+  transition: ease 200ms;
+}
+
+.Pricing-Table .card h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  color: #08526D;
+}
+
+.Pricing-Table .card span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8B999F;
+}
+
+.Pricing-Table .card p {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  width: 100%;
+  margin: 20px auto 40px;
+  color: #08526D;
+  background: #f7f7f7;
+  box-sizing: border-box;
+  padding: 13px 0 6px;
+}
+
+.Pricing-Table .card .Pricing-Table-selected, .Pricing-Table .card .Pricing-Table-selected span {
+  color: #fff;
+  background: #ed1d24;
+  border-color: #ed1d24;
+}
+
+.Pricing-Table .card-body {
+  padding: 30px 0px;
+}
+
+.Pricing-Table .list-group li {
+  border: none;
+  font-size: 16px;
+  line-height: 30px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.Pricing-Table .card-body a {
+  background: #ed1d24;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 46px;
+  padding: 0 20px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  letter-spacing: 2px;
+  min-width: 170px;
+  box-sizing: border-box;
+  transition: ease 200ms;
+}
+
+.Pricing-Table .card-body a:hover {
+  background-color: #08526D;
+  transition: ease 200ms;
+}
+
+.Pricing-Table .card:hover {
+  -webkit-box-shadow: 0 0 12px 0 rgba(130, 121, 121, 0.2);
+  -moz-box-shadow: 0 0 12px 0 rgba(130, 121, 121, 0.2);
+  box-shadow: 0 0 12px 0 rgba(130, 121, 121, 0.2);
+  transform: translate(0, -10px);
+  -webkit-transform: translate(0, -10px);
+  transition: ease 200ms;
 }
 
 /*# sourceMappingURL=style.css.map */
